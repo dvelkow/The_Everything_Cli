@@ -4,7 +4,7 @@
   "description": "Operate your life through the command line.",
   "main": "src/index.js",
   "bin": {
-    "ev": "./src/index.js"
+    "omni": "./src/index.js"
   },
   "scripts": {
     "start": "node src/index.js",
@@ -19,6 +19,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^4.1.2"
+    "chalk": "^4.1.2",
+    "prompts": "^2.4.2"
   }
 }
